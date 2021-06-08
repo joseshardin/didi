@@ -1,0 +1,22 @@
+.header {
+    
+    background-color: var(--color-header);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2rem;
+    
+    @include from(l) {
+        // max-width: $max-width;
+        background-color: var(--color-header);
+        padding: 3rem 2rem;
+        max-height: 12rem;
+        
+    }
+    
+    .logo {
+        width: 58rem;
+        flex: 0 1 auto;
+        
+    }
+}

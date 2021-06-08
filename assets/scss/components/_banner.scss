@@ -1,0 +1,62 @@
+.container-banner {
+    background-color: var(--color-banner);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    .banner {
+        padding: 2.2rem 0;
+
+        .container-time {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--text-color);
+            height: 4.5rem;
+            margin: 0 3.25rem;
+            padding: 0 2rem 0 2rem;
+            font-size: 1.7rem;
+            color: var(--text-color2);
+            border-radius: .5rem;
+
+            @include from(s){
+                font-size: 2rem;
+            }
+
+            @include from(l){
+                margin: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: var(--text-color);
+                border-radius: .5rem;
+                height: 4.5rem;
+                width: 58rem;
+                font-size: 2.5rem;
+                color: var(--text-color2);
+            }
+
+            span {
+                margin-left: 1rem;
+                color: var(--color-timer);
+            }
+        }
+
+        .container-presentation {
+            color: var(--text-color);
+            font-size: 1.4rem;
+            max-width: 58rem;
+            margin: 1rem 2rem 0 2rem;
+
+            @include from(s){
+                font-size: 2rem;
+            }
+            
+            @include from(l) {
+                font-size: 2.9rem;
+                max-width: 58rem;
+                margin: 1rem 0 0 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.container-time {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-presentation {
+    font-family: 'Popins', sans-serif;
+}
+
+.main {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer {
+    font-family: 'Open Sans', sans-serif;
+}
